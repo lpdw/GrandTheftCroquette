@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class DestroyCroquette : MonoBehaviour {
 
-	private int score = 0;
+	public Score score;
 
+	void Start(){
+
+	}
 	void OnCollisionEnter (Collision col)
 	{
-		if(col.gameObject.name == "Croquette")
+		if(col.gameObject.tag == "Player")
 		{
-			score =+1;
-			print (score);
-			Destroy(col.gameObject);
+			score.score =+100;
+			print (score.scoreText);
+			PlayerPrefs.SetInt("Score", score.score);
+			Destroy(gameObject);
 		}
 
 
