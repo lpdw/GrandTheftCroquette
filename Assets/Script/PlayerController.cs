@@ -6,8 +6,10 @@ public class PlayerController : MonoBehaviour {
 	
 	private Rigidbody myRigidBody;
 	public  float jumpValue;
-	public Vector3 move;
-
+	private int move;
+	public float moveSpeed = 10f;
+	public float turnSpeed = 500f;
+	public Animator animChat;	
 	// Use this for initialization
 	void Start () {
 		myRigidBody = GetComponent<Rigidbody> ();
@@ -18,42 +20,60 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 		Deplacement ();
 		if (Input.GetKeyDown (KeyCode.Space)) {
-			Jump ();
+			animChat.SetTrigger("jump");
+				Jump ();
 		}
-
+			
 	}
 
 	// Fonction pour faire rebondir le joueur
 	public void Jump () {
+		
 		myRigidBody.AddForce (jumpValue * Vector3.up);
 	}
 
 
-	public void Deplacement(){
-		
-		// Création d'un nouveau vecteur de déplacement
-	    move = new Vector3();
-	
-		// Récupération des touches haut et bas
-		if(Input.GetKey(KeyCode.UpArrow))
-			move.z += 0.1f;
-		if(Input.GetKey(KeyCode.DownArrow))
-			move.z -= 0.1f;
+	void Deplacement(){
+		if (move  == 0) {
+			animChat.SetBool ("walk", false);
+		}
+		if (Input.GetKey (KeyCode.UpArrow)) {
+			move = 1;
+			transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+			animChat.SetBool ("walk", true);
+		}
+			
 
-		// Récupération des touches gauche et droite
-		if(Input.GetKey(KeyCode.LeftArrow))
-			move.x -= 0.1f;
-		if(Input.GetKey(KeyCode.RightArrow))
-			move.x += 0.1f;
+		if (Input.GetKey (KeyCode.DownArrow)) {
+			move = 1;
+			transform.Translate(-Vector3.forward * moveSpeed * Time.deltaTime);
+			animChat.SetBool ("walk", true);
+		}
+			
 
-		// On applique le mouvement à l'objet
-		transform.position += move;
+		if (Input.GetKey (KeyCode.LeftArrow)) {
+			move = 1;
+			transform.Rotate(Vector3.up, -turnSpeed * Time.deltaTime);
+			animChat.SetBool ("walk", true);
+		}
+			
 
-		// autre solution 
-		/*
-		if(Input.GetAxis("Horizental")<0)
-		*/
+		if (Input.GetKey (KeyCode.RightArrow)) {
+			move = 1;
+			transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);	
+			animChat.SetBool ("walk", true);
+		}
+			
 	}
+	void OnCollisionEnter (Collision col)
+	{
+		if (col.gameObject.tag == "Croquette") {
+			animChat.SetTrigger ("eat");
+		
+		}
+
+
+	} 
 
 
 
