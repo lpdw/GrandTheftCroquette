@@ -5,9 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 	
 	private Rigidbody myRigidBody;
-	public  float jumpValue;
-	private int move;
-	public float moveSpeed = 10f;
+	public  float jumpValue = 10f;
+	public float moveSpeed;
 	public float turnSpeed = 500f;
 	public Animator animChat;	
 	// Use this for initialization
@@ -34,40 +33,37 @@ public class PlayerController : MonoBehaviour {
 
 
 	void Deplacement(){
-		if (move  == 0) {
-			animChat.SetBool ("walk", false);
+
+		if (Input.GetKeyUp (KeyCode.UpArrow) || Input.GetKeyUp (KeyCode.DownArrow)) {
+			animChat.SetBool ("walk", false);	
 		}
+
 		if (Input.GetKey (KeyCode.UpArrow)) {
-			move = 1;
 			transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
 			animChat.SetBool ("walk", true);
 		}
 			
 
 		if (Input.GetKey (KeyCode.DownArrow)) {
-			move = 1;
 			transform.Translate(-Vector3.forward * moveSpeed * Time.deltaTime);
 			animChat.SetBool ("walk", true);
 		}
 			
 
 		if (Input.GetKey (KeyCode.LeftArrow)) {
-			move = 1;
 			transform.Rotate(Vector3.up, -turnSpeed * Time.deltaTime);
-			animChat.SetBool ("walk", true);
 		}
 			
 
 		if (Input.GetKey (KeyCode.RightArrow)) {
-			move = 1;
 			transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);	
-			animChat.SetBool ("walk", true);
 		}
 			
 	}
 	void OnCollisionEnter (Collision col)
 	{
 		if (col.gameObject.tag == "Croquette") {
+			print ("eat");
 			animChat.SetTrigger ("eat");
 		
 		}
