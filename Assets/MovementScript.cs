@@ -12,7 +12,7 @@ public class MovementScript : MonoBehaviour {
 	private NavMeshAgent agent;
 	private Animator animator;
 	private bool nounouStop = false;
-	public bool playerInSight;
+	public bool playerInSight = false;
 	private CapsuleCollider col;
 	public GameObject cat;
 
@@ -32,28 +32,32 @@ public class MovementScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (playerInSight) {
-			animator.SetBool ("NonCombat", false);
-			agent.speed = 7f;
-			agent.SetDestination (target.position);
-			/*if (agent.remainingDistance < 2f) {
-				animator.SetBool ("NonCombat", true);
-				animator.SetBool ("Idling", true);
-				agent.speed = 0;
-			}*/
+		if (agent.speed != 0) {
+			animator.SetBool ("Idling", false);
 		} else {
+			animator.SetBool ("Idling", true);
+			animator.SetBool ("NonCombat", true);
+		}	
 
+
+		if (playerInSight) {
+			if (agent.remainingDistance > 2f) {
+				animator.SetBool ("NonCombat", false);
+				agent.speed = 7f;
+				agent.SetDestination (target.position);
+			} else {
+				animator.SetBool ("NonCombat", true);
+				agent.speed = 0;
+				animator.SetBool ("Idling", true);
+				agent.SetDestination (agent.transform.position);
+			}
+		} else {
+			agent.speed = 3.5f;
 			if (agent.remainingDistance < 0.5f && !nounouStop) {
 				GotoNextPoint ();
 			}
 
 			animator.SetBool ("NonCombat", true);
-
-			if (agent.speed != 0) {
-				animator.SetBool ("Idling", false);
-			} else {
-				animator.SetBool ("Idling", true);
-			}	
 
 			if ((nounou.position - points [points.Length - 1].position).magnitude < 4f) {
 				nounouStop = true;
@@ -83,9 +87,27 @@ public class MovementScript : MonoBehaviour {
 	void OnTriggerStay(Collider other)
 	{
 		if (other.gameObject == cat) {
+
+			/*Vector3 direction = other.transform.position - transform.position;
+			float angle = Vector3.Angle (direction, transform.forward);
+			RaycastHit hit;
+
+			if(angle < 110f * 0.5f)
+			if (Physics.Raycast (transform.position + transform.up, direction.normalized, out hit, col.radius)) {
+				if (hit.collider.gameObject == playerInSight) {
+					playerInSight = true;
+				}
+			}*/
 			playerInSight = true;
 		}
 
+	}
+
+	void OnTriggerExit(Collider other)
+	{
+		if (other.gameObject == cat) {
+			playerInSight = false;
+		}
 	}
 		
 }
