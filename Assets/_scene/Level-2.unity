@@ -834,7 +834,7 @@ GameObject:
   - component: {fileID: 833611930}
   - component: {fileID: 833611935}
   - component: {fileID: 833611933}
-  - component: {fileID: 833611932}
+  - component: {fileID: 833611931}
   m_Layer: 0
   m_Name: player1
   m_TagString: Player
@@ -849,7 +849,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 833611929}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 55.42, y: 46.75, z: 63.22}
+  m_LocalPosition: {x: 55.42, y: 46.75, z: 62.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 311571133}
@@ -857,7 +857,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &833611932
+--- !u!114 &833611931
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -868,8 +868,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 681fa6d54ef214e2c90813a99abc8065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpValue: 0
-  moveSpeed: 10
+  jumpValue: 300
+  moveSpeed: 8
   turnSpeed: 500
   animChat: {fileID: 1763289384}
 --- !u!54 &833611933
@@ -1133,19 +1133,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400436, guid: ae345304e26649041bd190310d2d2405, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.040348165
+      value: 0.04034817
       objectReference: {fileID: 0}
     - target: {fileID: 400436, guid: ae345304e26649041bd190310d2d2405, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.1722414
+      value: -0.17224142
       objectReference: {fileID: 0}
     - target: {fileID: 400436, guid: ae345304e26649041bd190310d2d2405, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.65178365
+      value: 0.6517837
       objectReference: {fileID: 0}
     - target: {fileID: 400436, guid: ae345304e26649041bd190310d2d2405, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7374842
+      value: 0.7374843
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: ae345304e26649041bd190310d2d2405, type: 3}
       propertyPath: m_Controller
