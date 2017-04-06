@@ -11120,12 +11120,12 @@ Prefab:
     - target: {fileID: 195603967738626320, guid: 8441116e181614e34bb294cb704b8ba2,
         type: 2}
       propertyPath: m_AutoBraking
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 136821863546330520, guid: 8441116e181614e34bb294cb704b8ba2,
         type: 2}
       propertyPath: m_Radius
-      value: 1.2
+      value: 1.22
       objectReference: {fileID: 0}
     - target: {fileID: 136821863546330520, guid: 8441116e181614e34bb294cb704b8ba2,
         type: 2}
@@ -11145,12 +11145,12 @@ Prefab:
     - target: {fileID: 136821863546330520, guid: 8441116e181614e34bb294cb704b8ba2,
         type: 2}
       propertyPath: m_Center.z
-      value: 2.37
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 195603967738626320, guid: 8441116e181614e34bb294cb704b8ba2,
         type: 2}
       propertyPath: m_StoppingDistance
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8441116e181614e34bb294cb704b8ba2, type: 2}

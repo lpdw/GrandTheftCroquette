@@ -41,16 +41,19 @@ public class MovementScript : MonoBehaviour {
 
 
 		if (playerInSight) {
-			animator.SetBool ("NonCombat", false);
-			agent.speed = 7f;
-			agent.SetDestination (target.position);
-			/*if (agent.remainingDistance < 2f) {
+			if (agent.remainingDistance > 2f) {
+				animator.SetBool ("NonCombat", false);
+				agent.speed = 7f;
+				agent.SetDestination (target.position);
+			} else {
+				animator.SetBool ("NonCombat", true);
 				agent.speed = 0;
-			}*/
+				animator.SetBool ("Idling", true);
+				agent.SetDestination (agent.transform.position);
+			}
 		} else {
-
+			agent.speed = 3.5f;
 			if (agent.remainingDistance < 0.5f && !nounouStop) {
-				agent.speed = 3.5f;
 				GotoNextPoint ();
 			}
 
