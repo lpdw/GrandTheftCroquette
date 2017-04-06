@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 	
 	private Rigidbody myRigidBody;
-	public  float jumpValue = 10f;
-	public float moveSpeed;
+	public  float jumpValue = 300f;
+	public float moveSpeed = 8f;
 	public float turnSpeed = 500f;
 	public Animator animChat;	
 	// Use this for initialization
