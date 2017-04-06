@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour {
 		if (col.gameObject.tag == "Nounou") {
 			print ("wasted");
 			fade.FadeIn ();
-
+			transform.Rotate(Vector3.up, 300.0f * Time.deltaTime);
 		}
 
 	}
