@@ -8,8 +8,8 @@ public class PlayerController : MonoBehaviour {
 	public  float jumpValue;
 	public float moveSpeed = 8f;
 	public float turnSpeed = 200f;
-	public Animator animChat;	
-
+	public Animator animChat;
+	public Fade fade;
 	private bool isJumping = false;
 	// Use this for initialization
 	void Start () {
@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour {
 		
 		RaycastHit hit;
 		if (Physics.Raycast (transform.position, -Vector3.up, out hit)) {
-			print (hit.distance);
+			//print (hit.distance);
 			// Si la distance est inférieur à 2, on peut sauter
 			if (hit.distance > 1.5f)
 				isJumping = true;
@@ -78,14 +78,20 @@ public class PlayerController : MonoBehaviour {
 	}
 	void OnCollisionEnter (Collision col)
 	{
+		print ("test");
 		if (col.gameObject.tag == "Croquette") {
 			print ("eat");
 			animChat.SetTrigger ("eat");
 		
 		}
 
+		if (col.gameObject.tag == "Nounou") {
+			print ("wasted");
+			fade.FadeIn ();
 
-	} 
+		}
+
+	}
 
 
 
