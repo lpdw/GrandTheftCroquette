@@ -6,7 +6,7 @@ using UnityEngine;
 public class Score : MonoBehaviour
 {
 
-	public static int score = 0;
+	public static float score = 0;
 	public Text scoreText;
 
 
@@ -14,7 +14,7 @@ public class Score : MonoBehaviour
 	void Update()
 	{
 		print (score);
-		scoreText.text = score.ToString();
+		scoreText.text = score.ToString("0000000");
 
 
 	}
