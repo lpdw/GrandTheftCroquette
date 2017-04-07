@@ -51,9 +51,38 @@ public class MovementScript : MonoBehaviour {
 
 
 		if (playerInSight) {
-			
+			print (agent.remainingDistance);
+
+			int nbStars = 0;
+			int distance = (int)agent.remainingDistance;
+
+			if (distance < 15 && distance > 12.5) {
+				nbStars = 1;
+			} else if (distance > 12.5) {
+				nbStars = 2;
+			} else if (distance > 10) {
+				nbStars = 3;
+			} else if (distance > 7.5) {
+				nbStars = 4;
+			} else if (distance > 5) {
+				nbStars = 5;
+			} else if (distance < 5) {
+				nbStars = 6;
+			}
+			/*
+			for (int i = 0; i<nbStars; i++) {
+
+				images[i].sprite = found;
+			}*/
+
+			int compteur = 1;
 			foreach (Image image in images) {
-				image.sprite = found;
+				if (compteur <= nbStars && nbStars != 0) {
+					image.sprite = found;
+				} else {
+					image.sprite = noFound;
+				}
+				compteur++;
 			}
 
 			if (agent.remainingDistance > 2f) {
