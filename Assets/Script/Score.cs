@@ -7,7 +7,7 @@ public class Score : MonoBehaviour
 {
 
 	public int score = 0;
-	public int maxScore = 0;
+	public int maxScore = 8;
 	public Text scoreText;
 	public Text maxScoreText;
 

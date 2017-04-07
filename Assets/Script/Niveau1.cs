@@ -9,15 +9,15 @@ public class Niveau1 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		score.setMaxScore(3);
+		//score.setMaxScore(6);
 		porte = GameObject.FindWithTag ("Porte");
 	}
-	
+
 	// Update is called once per frame
-	void Update () { 
-		 
+	void Update () {
+
 		if (score.score == score.maxScore) {
-			print ("Porte débloquer YEAAAH!");
+			print ("Porte débloquée YEAAAH!");
 			Debloquer ();
 		}
 
