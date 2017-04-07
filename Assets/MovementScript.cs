@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
+
 
 public class MovementScript : MonoBehaviour {
 
@@ -15,6 +17,11 @@ public class MovementScript : MonoBehaviour {
 	public bool playerInSight = false;
 	private CapsuleCollider col;
 	public GameObject cat;
+	public GameObject stars;
+	public Sprite found;
+	public Sprite noFound;
+	private bool stopStars;
+	private Image[] images;
 
 
 	// Use this for initialization
@@ -24,6 +31,8 @@ public class MovementScript : MonoBehaviour {
 		agent = GetComponent<NavMeshAgent> ();
 		animator = GetComponentInChildren<Animator>();
 		col = GetComponent<CapsuleCollider> ();
+		stopStars = false;
+		images = stars.GetComponentsInChildren<Image> ();
 		agent.autoBraking = false;
 		GotoNextPoint ();
 
@@ -31,6 +40,7 @@ public class MovementScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 
 		if (agent.speed != 0) {
 			animator.SetBool ("Idling", false);
@@ -41,9 +51,14 @@ public class MovementScript : MonoBehaviour {
 
 
 		if (playerInSight) {
+			
+			foreach (Image image in images) {
+				image.sprite = found;
+			}
+
 			if (agent.remainingDistance > 2f) {
 				animator.SetBool ("NonCombat", false);
-				agent.speed = 7f;
+				agent.speed = 4.5f;
 				agent.SetDestination (target.position);
 			} else {
 				animator.SetBool ("NonCombat", true);
@@ -52,6 +67,13 @@ public class MovementScript : MonoBehaviour {
 				agent.SetDestination (agent.transform.position);
 			}
 		} else {
+
+			if (stopStars) {
+				foreach (Image image in images) {
+					image.sprite = noFound;
+				}
+			}
+
 			agent.speed = 3.5f;
 			if (agent.remainingDistance < 0.5f && !nounouStop) {
 				GotoNextPoint ();
@@ -107,6 +129,7 @@ public class MovementScript : MonoBehaviour {
 	{
 		if (other.gameObject == cat) {
 			playerInSight = false;
+			stopStars = true;
 		}
 	}
 		
