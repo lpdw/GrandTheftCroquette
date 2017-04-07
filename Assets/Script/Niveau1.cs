@@ -9,7 +9,7 @@ public class Niveau1 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		score.setMaxScore(10);
+		score.setMaxScore(3);
 		porte = GameObject.FindWithTag ("Porte");
 	}
 	
