@@ -5,17 +5,23 @@ using UnityEngine;
 public class DestroyCroquette : MonoBehaviour {
 
 	public Score score;
+	private bool detruit = false;
 
 	void OnCollisionEnter (Collision col)
 	{
 		if(col.gameObject.tag == "Player")
-		{
-			score.score  += 1;
+		{ 
 			//PlayerPrefs.SetIn t("Score", score.score);
-			Destroy(gameObject,1.2f);
+			Destroy (gameObject, 1.2f);
+
+			if (!detruit) {
+				score.score += 1;
+			}
+
+			detruit = true;
 		}
-
-
+			
 	} 
+
 
 }

@@ -167,6 +167,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -1077,6 +1081,10 @@ Prefab:
       propertyPath: m_Name
       value: frie (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -1197,6 +1205,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -1438,6 +1450,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -1603,6 +1619,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -1746,6 +1766,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -1807,6 +1831,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -2412,6 +2440,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -2880,6 +2912,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -3023,6 +3059,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -3204,6 +3244,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -3265,6 +3309,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -3517,15 +3565,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 78.417
+      value: 78.44
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25.01
+      value: 25.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.512
+      value: -3.35
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3597,7 +3645,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_TagString
-      value: Croquette
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_TagString
@@ -3606,6 +3654,14 @@ Prefab:
     - target: {fileID: 400002, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
+      propertyPath: m_Name
+      value: mesh poulet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
@@ -3906,6 +3962,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -4753,7 +4813,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 669272632}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.71, y: 0.6, z: 15.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4761,7 +4821,7 @@ Transform:
   - {fileID: 608101220}
   m_Father: {fileID: 528837130}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &669272634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4803,8 +4863,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.70765686, y: 0.9926567, z: 1.1706543}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.70765686, y: 0.86195374, z: 1.1706543}
+  m_Center: {x: 0, y: 0.50115967, z: 0}
 --- !u!1 &671490576 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: 1086cfc097497426cb35caa0a5acfd09, type: 3}
@@ -5048,6 +5108,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -5200,22 +5264,6 @@ Rigidbody:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_PrefabInternal: {fileID: 1732870620}
---- !u!1 &776030156 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100002, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
-  m_PrefabInternal: {fileID: 485842136}
---- !u!114 &776030160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 776030156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6073e8db151944e6c96eb2d7059d4311, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: {fileID: 0}
 --- !u!1 &777511279
 GameObject:
   m_ObjectHideFlags: 0
@@ -5319,15 +5367,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 77.47
+      value: 77.33
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.16
+      value: 25.81
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.21
+      value: -3.79
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5419,7 +5467,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_TagString
-      value: Croquette
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_TagString
@@ -5427,7 +5475,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
+      propertyPath: m_Name
+      value: mesh poulet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
@@ -5711,6 +5763,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -5988,6 +6044,10 @@ Prefab:
       propertyPath: m_Name
       value: frie (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -6205,6 +6265,10 @@ Prefab:
       propertyPath: m_Name
       value: frie (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -6382,6 +6446,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -6622,6 +6690,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -6890,6 +6962,10 @@ Prefab:
     - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_Name
       value: frie (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -8619,6 +8695,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -9073,6 +9153,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -9175,6 +9259,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -9514,6 +9602,10 @@ Prefab:
     - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_Name
       value: frie (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -9927,7 +10019,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5f05bed53b6cf4036b92297c5b9efe22, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.7870026
+      value: 3.75
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5f05bed53b6cf4036b92297c5b9efe22, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10340,6 +10432,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -10881,6 +10977,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -12127,7 +12227,7 @@ GameObject:
   - component: {fileID: 1495860018}
   - component: {fileID: 1495860019}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: BoxCollider - Gros Mollets
   m_TagString: Nounou
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12483,6 +12583,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -12544,6 +12648,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -12671,7 +12779,7 @@ GameObject:
   - component: {fileID: 1547752142}
   - component: {fileID: 1547752143}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: BoxCollider - Meuf
   m_TagString: Nounou
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12700,8 +12808,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.31071985, y: 1.728962, z: 0.2739398}
-  m_Center: {x: -0.0011850795, y: -0.36448097, z: 0.014928828}
+  m_Size: {x: 0.22495529, y: 0.7688586, z: 0.23260245}
+  m_Center: {x: 0.0014139613, y: 0.11557071, z: 0.05823517}
 --- !u!1 &1550717513
 GameObject:
   m_ObjectHideFlags: 0
@@ -13138,7 +13246,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4697430644572986, guid: faedff68217734d66bbfe073fcd8bde5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 55.71
+      value: 63.3
       objectReference: {fileID: 0}
     - target: {fileID: 4833581458892730, guid: faedff68217734d66bbfe073fcd8bde5, type: 2}
       propertyPath: m_LocalPosition.z
@@ -13150,7 +13258,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4826260371845278, guid: faedff68217734d66bbfe073fcd8bde5, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 60.6
+      value: 62.05
       objectReference: {fileID: 0}
     - target: {fileID: 4810796346086450, guid: faedff68217734d66bbfe073fcd8bde5, type: 2}
       propertyPath: m_LocalPosition.y
@@ -13158,7 +13266,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4810796346086450, guid: faedff68217734d66bbfe073fcd8bde5, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 54.47
+      value: 55.68
       objectReference: {fileID: 0}
     - target: {fileID: 4826260371845278, guid: faedff68217734d66bbfe073fcd8bde5, type: 2}
       propertyPath: m_LocalPosition.y
@@ -13166,7 +13274,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4170346118844226, guid: faedff68217734d66bbfe073fcd8bde5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 49.1
+      value: 47.82
       objectReference: {fileID: 0}
     - target: {fileID: 4170346118844226, guid: faedff68217734d66bbfe073fcd8bde5, type: 2}
       propertyPath: m_LocalPosition.y
@@ -13174,7 +13282,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4810796346086450, guid: faedff68217734d66bbfe073fcd8bde5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 73.26
+      value: 75.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170346118844226, guid: faedff68217734d66bbfe073fcd8bde5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 56.13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: faedff68217734d66bbfe073fcd8bde5, type: 2}
@@ -13911,6 +14023,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -14055,6 +14171,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -14139,6 +14259,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -14200,6 +14324,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -14619,6 +14747,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -14814,6 +14946,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -15074,6 +15210,10 @@ Prefab:
     - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_Name
       value: frie (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -15537,6 +15677,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -15640,6 +15784,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -15675,10 +15823,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1888492101}
   - component: {fileID: 1888492102}
-  - component: {fileID: 1888492103}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Croquette
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15708,18 +15855,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.22635856, y: 0.39361572, z: 0.81343687}
   m_Center: {x: 0.054621056, y: 0.29011917, z: 0.12425745}
---- !u!114 &1888492103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1888492100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6073e8db151944e6c96eb2d7059d4311, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: {fileID: 10757287}
 --- !u!1 &1905237565
 GameObject:
   m_ObjectHideFlags: 0
@@ -15819,6 +15954,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -16071,7 +16210,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1339444564}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.68, y: -4.18, z: -8.9}
+  m_LocalPosition: {x: 6.56, y: -4.18, z: -1.85}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 1547752142}
@@ -16198,6 +16337,10 @@ Prefab:
     - target: {fileID: 400002, guid: c019254103137461784802799ea7c7cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
@@ -16465,6 +16608,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -16555,10 +16702,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1996038364}
   - component: {fileID: 1996038365}
-  - component: {fileID: 1996038366}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Croquette
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16588,18 +16734,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.22635856, y: 0.39361572, z: 0.81343687}
   m_Center: {x: 0.054621056, y: 0.29011917, z: 0.12425745}
---- !u!114 &1996038366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1996038363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6073e8db151944e6c96eb2d7059d4311, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: {fileID: 10757287}
 --- !u!1 &2007974145 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: fd195e6b7aa604f5ba5ce33305ef962a, type: 3}
@@ -16760,6 +16894,10 @@ Prefab:
       propertyPath: m_Name
       value: frie (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -16870,6 +17008,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 35.614002
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: c019254103137461784802799ea7c7cf, type: 3}
+      propertyPath: m_TagString
+      value: Croquette
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c019254103137461784802799ea7c7cf, type: 3}
   m_IsPrefabParent: 0
@@ -16914,22 +17056,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4873238, y: 0.17168427, z: 1.499115}
   m_Center: {x: 0.0038890839, y: -0.72795486, z: -0.19906616}
---- !u!1 &2031733569 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100002, guid: dd57f19cf6b8745538a4f6fddcdeab22, type: 3}
-  m_PrefabInternal: {fileID: 783681480}
---- !u!114 &2031733573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2031733569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6073e8db151944e6c96eb2d7059d4311, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: {fileID: 0}
 --- !u!1 &2036087795
 GameObject:
   m_ObjectHideFlags: 0

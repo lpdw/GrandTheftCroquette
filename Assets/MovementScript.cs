@@ -87,7 +87,7 @@ public class MovementScript : MonoBehaviour {
 
 			if (agent.remainingDistance > 2f) {
 				animator.SetBool ("NonCombat", false);
-				agent.speed = 4.5f;
+				agent.speed = 2f;
 				agent.SetDestination (target.position);
 			} else {
 				animator.SetBool ("NonCombat", true);
@@ -110,7 +110,7 @@ public class MovementScript : MonoBehaviour {
 
 			animator.SetBool ("NonCombat", true);
 
-			if ((nounou.position - points [points.Length - 1].position).magnitude < 4f) {
+			if ((nounou.position - points [points.Length - 1].position).magnitude < 1f) {
 				nounouStop = true;
 				agent.speed = 0;
 				StartCoroutine (Stop ());
