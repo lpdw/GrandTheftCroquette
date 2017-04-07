@@ -78,9 +78,7 @@ public class PlayerController : MonoBehaviour {
 	}
 	void OnCollisionEnter (Collision col)
 	{
-		print ("test");
 		if (col.gameObject.tag == "Croquette") {
-			print ("eat");
 			animChat.SetTrigger ("eat");
 		
 		}
@@ -88,7 +86,9 @@ public class PlayerController : MonoBehaviour {
 		if (col.gameObject.tag == "Nounou") {
 			print ("wasted");
 			fade.FadeIn ();
-			transform.Rotate(Vector3.up, 300.0f * Time.deltaTime);
+			 moveSpeed = 0f;
+			 turnSpeed = 0f;
+			//transform.Rotate(Vector3.up, 300.0f * Time.deltaTime);
 		}
 
 	}
