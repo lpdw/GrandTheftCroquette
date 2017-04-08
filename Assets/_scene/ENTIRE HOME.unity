@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44139096, g: 0.49021488, b: 0.57025146, a: 1}
+  m_IndirectSpecularColor: {r: 0.4413911, g: 0.49021447, b: 0.5702518, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -579,6 +579,10 @@ Prefab:
     - target: {fileID: 100002, guid: 634204885a982471e90d4207a60693d6, type: 3}
       propertyPath: m_Name
       value: Computer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 634204885a982471e90d4207a60693d6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 634204885a982471e90d4207a60693d6, type: 3}
@@ -5347,7 +5351,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 717199208}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 8.292, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1838183414}
@@ -13798,15 +13802,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: ca775d4474f70479587f2f5e578b6072, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.430931
+      value: 5.0432
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ca775d4474f70479587f2f5e578b6072, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1351814
+      value: 4.4583
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ca775d4474f70479587f2f5e578b6072, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.409676
+      value: -8.0086
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ca775d4474f70479587f2f5e578b6072, type: 3}
       propertyPath: m_LocalRotation.x
@@ -13830,15 +13834,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ca775d4474f70479587f2f5e578b6072, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.03
+      value: 0.5603909
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ca775d4474f70479587f2f5e578b6072, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.03
+      value: 0.69768906
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ca775d4474f70479587f2f5e578b6072, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.7774004
+      value: 0.43799707
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ca775d4474f70479587f2f5e578b6072, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -13847,6 +13851,10 @@ Prefab:
     - target: {fileID: 100002, guid: ca775d4474f70479587f2f5e578b6072, type: 3}
       propertyPath: m_Name
       value: Plant Top
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ca775d4474f70479587f2f5e578b6072, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca775d4474f70479587f2f5e578b6072, type: 3}
